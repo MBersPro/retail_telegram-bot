@@ -1,6 +1,6 @@
 {
-  "name": "retail-telegram-function",
-  "description": "retail-telegram-function",
+  "name": "functions",
+  "description": "Cloud Functions for Firebase",
   "scripts": {
     "serve": "firebase emulators:start --only functions",
     "shell": "firebase functions:shell",
