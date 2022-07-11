@@ -1,0 +1,265 @@
+.image {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 10px 0px 0px 0px;
+  transition: 0.3s;
+}
+.image:hover {
+  cursor: zoom-in;
+  transform: scale(1.03);
+}
+.productCharactersContainer {
+  display: flex;
+  flex-direction: column;
+  width: 140px;
+  padding: 5px;
+  position: relative;
+  justify-content: space-between;
+  padding-bottom: 7px;
+}
+
+.name {
+  margin-top: 0;
+  margin-bottom: 7px;
+  font-family: "DM Sans", sans-serif;
+  text-align: center;
+}
+.price {
+  text-align: center;
+  font-weight: 700;
+  margin-top: 0;
+  margin-bottom: 7px;
+  font-family: "DM Sans", sans-serif;
+}
+.season {
+  margin-top: 0;
+  margin-bottom: 0;
+  font-family: "DM Sans", sans-serif;
+}
+.description {
+  margin-top: 0;
+  margin-bottom: 0;
+  font-family: "DM Sans", sans-serif;
+}
+.span_description {
+  font-weight: 600;
+}
+.season_span:not(:last-child) {
+  margin-right: 5px;
+  display: inline-block;
+}
+
+.buttonNotAdded {
+  background-color: gray;
+  color: white;
+  border: none;
+  border-radius: 10px;
+  font-family: "DM Sans", sans-serif;
+  width: 100%;
+  border-radius: 0px 0px 10px 10px;
+  height: 100%;
+  font-size: 14px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  border-radius: 0px 0px 5px 5px;
+}
+.buttonNotAdded:hover {
+  cursor: pointer;
+}
+.buttonAdded {
+  background-color: rgb(83, 136, 83);
+  color: white;
+  border: none;
+  border-radius: 10px;
+  font-family: "DM Sans", sans-serif;
+  width: 100%;
+  border-radius: 0px 0px 10px 10px;
+  height: 100%;
+  font-size: 14px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  border-radius: 0px 0px 5px 5px;
+}
+.buttonAdded:hover {
+  cursor: not-allowed;
+}
+.colorsContainer {
+  display: flex;
+  justify-content: space-around;
+}
+.black {
+  border-radius: 50%;
+  background-color: black;
+  width: 17px;
+  height: 17px;
+  border: 3px solid rgb(0, 0, 0);
+  transition: 0.3s;
+}
+.black:hover {
+  cursor: pointer;
+  transform: scale(1.15);
+}
+.grey {
+  border-radius: 50%;
+  background-color: grey;
+  width: 17px;
+  height: 17px;
+  border: 3px solid grey;
+  transition: 0.3s;
+}
+.grey:hover {
+  cursor: pointer;
+  transform: scale(1.15);
+}
+.green {
+  border-radius: 50%;
+  background-color: green;
+  width: 17px;
+  height: 17px;
+  border: 3px solid green;
+  transition: 0.3s;
+}
+.green:hover {
+  cursor: pointer;
+  transform: scale(1.15);
+}
+.white {
+  border-radius: 50%;
+  background-color: white;
+  width: 17px;
+  height: 17px;
+  border: 3px solid black;
+  transition: 0.3s;
+}
+.white:hover {
+  cursor: pointer;
+  transform: scale(1.15);
+}
+.red {
+  border-radius: 50%;
+  background-color: rgb(119, 16, 16);
+  width: 17px;
+  height: 17px;
+  border: 3px solid rgb(119, 16, 16);
+  transition: 0.3s;
+}
+.red:hover {
+  cursor: pointer;
+  transform: scale(1.15);
+}
+.yellow {
+  border-radius: 50%;
+  background-color: rgb(191, 191, 57);
+  width: 17px;
+  height: 17px;
+  border: 3px solid rgb(191, 191, 57);
+  transition: 0.3s;
+}
+.yellow:hover {
+  cursor: pointer;
+  transform: scale(1.15);
+}
+.brown {
+  border-radius: 50%;
+  background-color: rgb(120, 60, 0);
+  width: 17px;
+  height: 17px;
+  border: 3px solid rgb(120, 60, 0);
+  transition: 0.3s;
+}
+.brown:hover {
+  cursor: pointer;
+  transform: scale(1.15);
+}
+
+.blue {
+  border-radius: 50%;
+  background-color: rgb(0, 0, 255);
+  width: 17px;
+  height: 17px;
+  border: 3px solid rgb(0, 0, 255);
+  transition: 0.3s;
+}
+.blue:hover {
+  cursor: pointer;
+  transform: scale(1.15);
+}
+
+.orange {
+  border-radius: 50%;
+  background-color: orange;
+  width: 17px;
+  height: 17px;
+  border: 3px solid orange;
+  transition: 0.3s;
+}
+.orange:hover {
+  cursor: pointer;
+  transform: scale(1.15);
+}
+
+.colorsContainer {
+  margin-bottom: 30px;
+}
+
+.image_container {
+  width: 150px;
+  height: 225px;
+}
+.divImageAndTxt {
+  display: flex;
+}
+
+.descriptionModal {
+  height: 100%;
+  overflow: auto;
+  position: absolute;
+  background-color: rgb(255, 255, 255);
+  top: 0;
+  transition: 0.2s;
+  color: rgb(0, 0, 0);
+  width: 100%;
+  left: 0px;
+  border-radius: 0px 10px 10px 0px;
+}
+
+.btnBackModalDescription {
+  background-color: rgba(240, 248, 255, 0);
+  border: none;
+  padding: 0;
+  font-size: 18px;
+  font-family: "Roboto", sans-serif;
+  color: rgb(0, 0, 0);
+  margin-bottom: 20px;
+}
+
+.descriptionTxt {
+  font-family: "Roboto", sans-serif;
+  margin: 0;
+  text-align: center;
+  color: rgb(0, 0, 0);
+}
+.btnOpenModalDescription {
+  background: #f5f4fa;
+  border-radius: 4px;
+  width: 140px;
+  padding: 6px 0px;
+  cursor: pointer;
+  border: none;
+  font-family: "Roboto", sans-serif;
+  color: black;
+  transition: 0.8s;
+}
+
+.btnOpenModalDescription:hover {
+  background: #2196f3;
+  color: white;
+  transition: 0.8s;
+  box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08),
+    0px 2px 2px rgba(0, 0, 0, 0.12);
+}
+
+.btnOpenModalDescriptionContainer {
+  text-align: center;
+}
